@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882FA60922B9CC5A000438AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA60822B9CC5A000438AA /* AppDelegate.m */; };
+		882FA60C22B9CC5A000438AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA60B22B9CC5A000438AA /* ViewController.m */; };
+		882FA60F22B9CC5A000438AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882FA60D22B9CC5A000438AA /* Main.storyboard */; };
+		882FA61122B9CC5C000438AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882FA61022B9CC5C000438AA /* Assets.xcassets */; };
+		882FA61422B9CC5C000438AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882FA61222B9CC5C000438AA /* LaunchScreen.storyboard */; };
+		882FA61722B9CC5C000438AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA61622B9CC5C000438AA /* main.m */; };
+		882FA62122B9CC5D000438AA /* JMCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA62022B9CC5D000438AA /* JMCycleScrollViewTests.m */; };
+		882FA62C22B9CC5D000438AA /* JMCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA62B22B9CC5D000438AA /* JMCycleScrollViewUITests.m */; };
+		882FA63C22B9CDBD000438AA /* JMCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA63B22B9CDBD000438AA /* JMCycleScrollView.m */; };
+		882FA64222B9CEE4000438AA /* JMScrollItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FA64122B9CEE4000438AA /* JMScrollItemView.m */; };
+		C87C1E5CD2828B97844A8434 /* libPods-JMCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AD891DBB646137FB9B3907 /* libPods-JMCycleScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882FA61D22B9CC5D000438AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882FA5FC22B9CC59000438AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882FA60322B9CC5A000438AA;
+			remoteInfo = JMCycleScrollView;
+		};
+		882FA62822B9CC5D000438AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 882FA5FC22B9CC59000438AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 882FA60322B9CC5A000438AA;
+			remoteInfo = JMCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D8E98EFFB2556D8817D82FB /* Pods-JMCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCycleScrollView.release.xcconfig"; path = "Target Support Files/Pods-JMCycleScrollView/Pods-JMCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		882FA60422B9CC5A000438AA /* JMCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FA60722B9CC5A000438AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		882FA60822B9CC5A000438AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		882FA60A22B9CC5A000438AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		882FA60B22B9CC5A000438AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		882FA60E22B9CC5A000438AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882FA61022B9CC5C000438AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		882FA61322B9CC5C000438AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		882FA61522B9CC5C000438AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882FA61622B9CC5C000438AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882FA61C22B9CC5D000438AA /* JMCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FA62022B9CC5D000438AA /* JMCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCycleScrollViewTests.m; sourceTree = "<group>"; };
+		882FA62222B9CC5D000438AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882FA62722B9CC5D000438AA /* JMCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FA62B22B9CC5D000438AA /* JMCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCycleScrollViewUITests.m; sourceTree = "<group>"; };
+		882FA62D22B9CC5D000438AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882FA63A22B9CDBD000438AA /* JMCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCycleScrollView.h; sourceTree = "<group>"; };
+		882FA63B22B9CDBD000438AA /* JMCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCycleScrollView.m; sourceTree = "<group>"; };
+		882FA64022B9CEE4000438AA /* JMScrollItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMScrollItemView.h; sourceTree = "<group>"; };
+		882FA64122B9CEE4000438AA /* JMScrollItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMScrollItemView.m; sourceTree = "<group>"; };
+		A3AD891DBB646137FB9B3907 /* libPods-JMCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC39DA6E978675BDEDDF28BA /* Pods-JMCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCycleScrollView.debug.xcconfig"; path = "Target Support Files/Pods-JMCycleScrollView/Pods-JMCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		882FA60122B9CC5A000438AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C1E5CD2828B97844A8434 /* libPods-JMCycleScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA61922B9CC5D000438AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA62422B9CC5D000438AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B451F2C0AFF47D0A9F5A4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC39DA6E978675BDEDDF28BA /* Pods-JMCycleScrollView.debug.xcconfig */,
+				6D8E98EFFB2556D8817D82FB /* Pods-JMCycleScrollView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		882FA5FB22B9CC59000438AA = {
+			isa = PBXGroup;
+			children = (
+				882FA60622B9CC5A000438AA /* JMCycleScrollView */,
+				882FA61F22B9CC5D000438AA /* JMCycleScrollViewTests */,
+				882FA62A22B9CC5D000438AA /* JMCycleScrollViewUITests */,
+				882FA60522B9CC5A000438AA /* Products */,
+				30B451F2C0AFF47D0A9F5A4A /* Pods */,
+				AE0F59D0B35B79591754CEA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		882FA60522B9CC5A000438AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				882FA60422B9CC5A000438AA /* JMCycleScrollView.app */,
+				882FA61C22B9CC5D000438AA /* JMCycleScrollViewTests.xctest */,
+				882FA62722B9CC5D000438AA /* JMCycleScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882FA60622B9CC5A000438AA /* JMCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				882FA63922B9CD57000438AA /* JMCycleScrollView */,
+				882FA60722B9CC5A000438AA /* AppDelegate.h */,
+				882FA60822B9CC5A000438AA /* AppDelegate.m */,
+				882FA60A22B9CC5A000438AA /* ViewController.h */,
+				882FA60B22B9CC5A000438AA /* ViewController.m */,
+				882FA60D22B9CC5A000438AA /* Main.storyboard */,
+				882FA61022B9CC5C000438AA /* Assets.xcassets */,
+				882FA61222B9CC5C000438AA /* LaunchScreen.storyboard */,
+				882FA61522B9CC5C000438AA /* Info.plist */,
+				882FA61622B9CC5C000438AA /* main.m */,
+			);
+			path = JMCycleScrollView;
+			sourceTree = "<group>";
+		};
+		882FA61F22B9CC5D000438AA /* JMCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				882FA62022B9CC5D000438AA /* JMCycleScrollViewTests.m */,
+				882FA62222B9CC5D000438AA /* Info.plist */,
+			);
+			path = JMCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		882FA62A22B9CC5D000438AA /* JMCycleScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				882FA62B22B9CC5D000438AA /* JMCycleScrollViewUITests.m */,
+				882FA62D22B9CC5D000438AA /* Info.plist */,
+			);
+			path = JMCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		882FA63922B9CD57000438AA /* JMCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				882FA63A22B9CDBD000438AA /* JMCycleScrollView.h */,
+				882FA63B22B9CDBD000438AA /* JMCycleScrollView.m */,
+				882FA64022B9CEE4000438AA /* JMScrollItemView.h */,
+				882FA64122B9CEE4000438AA /* JMScrollItemView.m */,
+			);
+			path = JMCycleScrollView;
+			sourceTree = "<group>";
+		};
+		AE0F59D0B35B79591754CEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD891DBB646137FB9B3907 /* libPods-JMCycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882FA60322B9CC5A000438AA /* JMCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882FA63022B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollView" */;
+			buildPhases = (
+				C08CCD7C762DCAFAD2BE0812 /* [CP] Check Pods Manifest.lock */,
+				882FA60022B9CC5A000438AA /* Sources */,
+				882FA60122B9CC5A000438AA /* Frameworks */,
+				882FA60222B9CC5A000438AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMCycleScrollView;
+			productName = JMCycleScrollView;
+			productReference = 882FA60422B9CC5A000438AA /* JMCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		882FA61B22B9CC5D000438AA /* JMCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882FA63322B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollViewTests" */;
+			buildPhases = (
+				882FA61822B9CC5D000438AA /* Sources */,
+				882FA61922B9CC5D000438AA /* Frameworks */,
+				882FA61A22B9CC5D000438AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882FA61E22B9CC5D000438AA /* PBXTargetDependency */,
+			);
+			name = JMCycleScrollViewTests;
+			productName = JMCycleScrollViewTests;
+			productReference = 882FA61C22B9CC5D000438AA /* JMCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		882FA62622B9CC5D000438AA /* JMCycleScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 882FA63622B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollViewUITests" */;
+			buildPhases = (
+				882FA62322B9CC5D000438AA /* Sources */,
+				882FA62422B9CC5D000438AA /* Frameworks */,
+				882FA62522B9CC5D000438AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882FA62922B9CC5D000438AA /* PBXTargetDependency */,
+			);
+			name = JMCycleScrollViewUITests;
+			productName = JMCycleScrollViewUITests;
+			productReference = 882FA62722B9CC5D000438AA /* JMCycleScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		882FA5FC22B9CC59000438AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jimon;
+				TargetAttributes = {
+					882FA60322B9CC5A000438AA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					882FA61B22B9CC5D000438AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 882FA60322B9CC5A000438AA;
+					};
+					882FA62622B9CC5D000438AA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 882FA60322B9CC5A000438AA;
+					};
+				};
+			};
+			buildConfigurationList = 882FA5FF22B9CC5A000438AA /* Build configuration list for PBXProject "JMCycleScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 882FA5FB22B9CC59000438AA;
+			productRefGroup = 882FA60522B9CC5A000438AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				882FA60322B9CC5A000438AA /* JMCycleScrollView */,
+				882FA61B22B9CC5D000438AA /* JMCycleScrollViewTests */,
+				882FA62622B9CC5D000438AA /* JMCycleScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		882FA60222B9CC5A000438AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FA61422B9CC5C000438AA /* LaunchScreen.storyboard in Resources */,
+				882FA61122B9CC5C000438AA /* Assets.xcassets in Resources */,
+				882FA60F22B9CC5A000438AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA61A22B9CC5D000438AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA62522B9CC5D000438AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C08CCD7C762DCAFAD2BE0812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JMCycleScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		882FA60022B9CC5A000438AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FA64222B9CEE4000438AA /* JMScrollItemView.m in Sources */,
+				882FA60C22B9CC5A000438AA /* ViewController.m in Sources */,
+				882FA61722B9CC5C000438AA /* main.m in Sources */,
+				882FA60922B9CC5A000438AA /* AppDelegate.m in Sources */,
+				882FA63C22B9CDBD000438AA /* JMCycleScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA61822B9CC5D000438AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FA62122B9CC5D000438AA /* JMCycleScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882FA62322B9CC5D000438AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882FA62C22B9CC5D000438AA /* JMCycleScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882FA61E22B9CC5D000438AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882FA60322B9CC5A000438AA /* JMCycleScrollView */;
+			targetProxy = 882FA61D22B9CC5D000438AA /* PBXContainerItemProxy */;
+		};
+		882FA62922B9CC5D000438AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 882FA60322B9CC5A000438AA /* JMCycleScrollView */;
+			targetProxy = 882FA62822B9CC5D000438AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		882FA60D22B9CC5A000438AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882FA60E22B9CC5A000438AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		882FA61222B9CC5C000438AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				882FA61322B9CC5C000438AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		882FA62E22B9CC5D000438AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		882FA62F22B9CC5D000438AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882FA63122B9CC5D000438AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC39DA6E978675BDEDDF28BA /* Pods-JMCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		882FA63222B9CC5D000438AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8E98EFFB2556D8817D82FB /* Pods-JMCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		882FA63422B9CC5D000438AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCycleScrollView.app/JMCycleScrollView";
+			};
+			name = Debug;
+		};
+		882FA63522B9CC5D000438AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCycleScrollView.app/JMCycleScrollView";
+			};
+			name = Release;
+		};
+		882FA63722B9CC5D000438AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMCycleScrollView;
+			};
+			name = Debug;
+		};
+		882FA63822B9CC5D000438AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jm..JMCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMCycleScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		882FA5FF22B9CC5A000438AA /* Build configuration list for PBXProject "JMCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FA62E22B9CC5D000438AA /* Debug */,
+				882FA62F22B9CC5D000438AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882FA63022B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FA63122B9CC5D000438AA /* Debug */,
+				882FA63222B9CC5D000438AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882FA63322B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FA63422B9CC5D000438AA /* Debug */,
+				882FA63522B9CC5D000438AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		882FA63622B9CC5D000438AA /* Build configuration list for PBXNativeTarget "JMCycleScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882FA63722B9CC5D000438AA /* Debug */,
+				882FA63822B9CC5D000438AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 882FA5FC22B9CC59000438AA /* Project object */;
+}
