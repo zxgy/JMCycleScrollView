@@ -1,7 +1,8 @@
 # JMCycleScrollView
 Only three views are needed to implement infinite circular rotation.
 
-效果GIF图
+- 效果GIF图
+
 ![image](https://github.com/zxgy/JMCycleScrollView/blob/master/images/cycleScroll.gif)
 
 仅创建3个视图，即可实现无限循环轮播；
